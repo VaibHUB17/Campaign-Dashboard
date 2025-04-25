@@ -7,7 +7,7 @@
 - 3. Start the FastAPI server:
     - python server/main.py     
 
-# Frontend:
+# FrontEnd:
 1. Install Node.js dependencies:
  - npm i
 2. Start the development server:
