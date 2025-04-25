@@ -21,7 +21,7 @@ const CampaignDashboard = () => {
       try {
         let data: Campaign[];
         
-        // Attempt to fetch from API, fall back to mock data if API is unavailable
+        //  fetch from API, falling back to mock data if API is not available
         try {
           // Only filter by status at the API level if not "All"
           const apiStatus = statusFilter === 'All' ? undefined : statusFilter;
