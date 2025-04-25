@@ -1,13 +1,14 @@
-## TO Run the Project:
-# Front End 
-- 1. Install Python Dependencies:
+## TO Run the Project/Installation 
+
+# BackEnd 
+1. Install Python Dependencies:
    - pip install -r server/requirements.txt 
-- 2. Initialize the database:
+2. Initialize the database:
     - python server/db/init_sqlite.py
-- 3. Start the FastAPI server:
+3. Start the FastAPI server:
     - python server/main.py     
 
-# Frontend:
+# FrontEnd:
 1. Install Node.js dependencies:
  - npm i
 2. Start the development server:
