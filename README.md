@@ -1,5 +1,5 @@
 ## TO Run the Project:
-# Front End 
+# BackEnd 
 - 1. Install Python Dependencies:
    - pip install -r server/requirements.txt 
 - 2. Initialize the database:
