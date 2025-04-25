@@ -1,7 +1,7 @@
 
 import { Campaign } from '../types/campaign';
 
-const API_URL = 'http://localhost:8000/campaigns';
+const API_URL = `${import.meta.env.VITE_API_URL}/campaigns`;
 
 export const fetchCampaigns = async (status?: 'Active' | 'Paused'): Promise<Campaign[]> => {
   try {
